@@ -1,0 +1,21 @@
+@media(max-width:999px){
+
+    .conteudo{
+      grid-template-columns: 1fr;
+    }
+
+    .descricao{
+        justify-items: center;
+        text-align: center;
+    }
+
+
+
+    .detalhe{
+        display: none;
+    }
+
+    .bike{
+       order: -1;
+    }
+}
